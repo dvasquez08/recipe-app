@@ -73,7 +73,7 @@ body {
   font-size: 25px;
 }
 
-#ingredients {
+#items {
   width: 40vh;
   height: 20vh;
   border: 1px solid #ccc;
@@ -93,7 +93,7 @@ body {
   justify-content: center;
 }
 
-.recipe-list {
+#recipe-list {
   padding: 1%;
   display: flex;
   flex-direction: column;
