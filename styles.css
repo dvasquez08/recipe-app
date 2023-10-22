@@ -2,8 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Arimo", sans-serif;
-  background-color: #eae2b7;
+  background-image: url('assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
 }
+
+/* section for the title area at the top of page */
 
 .title-section {
   display: flex;
@@ -13,6 +17,18 @@ body {
   color: #fff;
 }
 
+/* Section that positions the intro section and the search section */
+
+.content-container {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+
+/* Styling for intro area which is on the left side */
+
 .intro-area {
   display: flex;
   flex-direction: row;
@@ -21,14 +37,18 @@ body {
 }
 
 .intro-text {
-  padding: 1%;
+  padding: 2%;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #fcbf49;
   width: 70vh;
+  border: 1px solid transparent;
+  border-radius: 40px;
 }
+
+/* Styling for the search area which is on the right side */
 
 .search-area {
   margin-top: 3%;
@@ -42,14 +62,44 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #f77f00;
+  color: #fff;
+  text-align: center;
   width: 70vh;
+  border: 1px solid transparent;
+  border-radius: 40px;
 }
 
+#ingredients {
+  width: 40vh;
+  height: 20vh;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+#search-button {
+  margin-top: 2%;
+  padding: 1px;
+  width: 15vh;
+}
+
+/* Sytling for the footer area */
+
 .footer {
-  margin-top: 3%;
+  margin-top: 0;
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  flex-direction: column;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
   background-color: #003049;
+}
+
+.footer-content {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
 }
