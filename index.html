@@ -13,10 +13,20 @@
     <title>Recipe Finder App</title>
   </head>
   <body>
+    <!-- Beginning of title section -->
+
     <div class="title-section">
       <div class="title text">
         <h1>Recipe Finder by: David Vasquez</h1>
       </div>
+    </div>
+
+    <!-- Beginning of main content section
+    intro will be on left, search on right -->
+
+    <div class="content-container">
+      <!-- Beginning of introduction section -->
+
       <div class="intro-area">
         <div class="intro-text">
           <p>
@@ -26,7 +36,38 @@
           </p>
         </div>
       </div>
+
+      <!-- Beginning of search area -->
+
+      <div class="search-area">
+        <div class="search-content">
+          <p>Enter your ingredients here to get your recipe</p>
+          <input
+            type="text"
+            id="ingredients"
+            placeholder="Enter ingredients here..."
+          />
+          <button id="search-button">Get recipe!</button>
+        </div>
+      </div>
     </div>
+
+    <!-- End of main content container -->
+
+    <!-- Beginning of footer section -->
+    <div class="footer">
+      <div class="footer-content">
+        <p>Designed by: David Vasquez</p>
+        <p>Check out my <a href="https://github.com/dvasquez08"></a>Github</p>
+        <p>
+          You take a look at my other works
+          <a href="dvasquez08.github.io">here</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- End of page -->
+
     <script src="script.js"></script>
   </body>
 </html>
