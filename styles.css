@@ -86,6 +86,28 @@ body {
   width: 15vh;
 }
 
+.recipe-area {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.recipe-list {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #81b29a;
+  color: #fff;
+  text-align: center;
+  width: 70vh;
+  border: 1px solid transparent;
+  border-radius: 40px;
+  font-size: 25px;
+}
+
 /* Sytling for the footer area */
 
 .footer {
