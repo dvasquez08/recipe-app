@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Arimo", sans-serif;
-  background-image: url('assets/bg.jpg');
+  background-image: url("assets/bg.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -23,9 +23,8 @@ body {
   margin-top: 3%;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-
 
 /* Styling for intro area which is on the left side */
 
@@ -42,10 +41,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fcbf49;
+  background-color: #40916c;
   width: 70vh;
   border: 1px solid transparent;
   border-radius: 40px;
+  font-size: 20px;
+  color: #fff;
 }
 
 /* Styling for the search area which is on the right side */
@@ -63,12 +64,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f77f00;
+  background-color: #81b29a;
   color: #fff;
   text-align: center;
   width: 70vh;
   border: 1px solid transparent;
   border-radius: 40px;
+  font-size: 25px;
 }
 
 #ingredients {
@@ -87,12 +89,11 @@ body {
 /* Sytling for the footer area */
 
 .footer {
-  margin-top: 0;
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
+  margin-top: 5%;
   bottom: 0;
   background-color: #003049;
 }
@@ -102,4 +103,9 @@ body {
   color: #fff;
   display: flex;
   flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd60a;
 }
