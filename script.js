@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchButton = document.getElementById("search-button");
   const recipeList = document.getElementById("recipe-list");
 
+  // Event listener that fetches recipe data after the text box is filled and the search button is clicked
+
   searchButton.addEventListener("click", function () {
     const ingredients = ingredientInput.value;
     if (ingredients.trim() === "") {
@@ -27,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
   });
+
+  // This is pretty much identical to the previous event listener except that it has fetches recipes from the API using the enter key
 
   ingredientInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
@@ -55,6 +59,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   });
+
+  // This is a function that makes the list of recipes into clickable links that takes the user to
+  // a Google search result of the name of the dish that they clicked on
 
   function showRecipes(recipes) {
     recipeList.innerHTML = "";
