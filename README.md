@@ -3,11 +3,11 @@ Ever had some things in your fridge that you didn't know what to do with? Maybe 
 
 This is a recipe finder app that allows you to search for recipes based on the ingredients that you enter in the text box. 
 
-![1](https://github.com/dvasquez08/recipe-app/assets/99619761/3a3c5c18-c999-40a5-ba9c-0b0a2565d0b9)
+![Screenshot 2023-10-26 090337](https://github.com/dvasquez08/recipe-app/assets/99619761/d1415667-a56d-48d9-a1ae-f5ef69a62817)
 
 Just enter the ingredients that you have in the text box as shown below, then click on "Get Recipe!"
 
-![2](https://github.com/dvasquez08/recipe-app/assets/99619761/59f48be2-ce79-46ca-99a1-0122e25dd94f)
+![Screenshot 2023-10-26 090404](https://github.com/dvasquez08/recipe-app/assets/99619761/2494501f-1810-4fcd-85a5-b032490c91dc)
 
 The app will then take the data you entered and show results of recipes based on what you entered. It will show a list of possible dishes that you can make with what you have.
 
@@ -17,5 +17,12 @@ That's not all! The items on the list are clickable links that result in Google 
 
 ![4](https://github.com/dvasquez08/recipe-app/assets/99619761/e82819f8-9463-4e46-a737-ac3f7fa8eecd)
 
+[Give it a try!](https://dvasquez08.github.io/recipe-app/)
 Hope you find it useful! Happy cooking! 
+
+
+
+
+
+
 
