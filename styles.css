@@ -77,14 +77,40 @@ body {
   width: 40vh;
   height: 20vh;
   border: 1px solid #ccc;
+  border-radius: 10px;
   resize: none;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* Syling for search button */
+
 #search-button {
-  margin-top: 2%;
+  margin-top: 3%;
   padding: 1px;
   width: 15vh;
+  height: 5vh;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: #ffd60a;
+  color: #003049;
+  font-family: "Arimo", sans-serif;
+  font-size: large;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+#search-button:hover {
+  transform: scale(1.1);
+}
+
+#search-button:active {
+  background-color: #f77f00;
+  color: #fff;
+}
+
+/* End of styling for search button */
+
+/* Recipe results section */
 
 .recipe-area {
   margin-top: 3%;
