@@ -131,3 +131,45 @@ a {
   text-decoration: none;
   color: #ffd60a;
 }
+
+/* Optimizing for mobile devices */
+
+@media (max-width: 1060px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .intro-text {
+    width: 60vh;
+  }
+
+  .search-content {
+    width: 60vh;
+  }
+
+  #recipe-list {
+    width: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-text {
+    text-align: center;
+  }
+
+  .intro-text {
+    width: 50vh;
+  }
+
+  .search-content {
+    width: 50vh;
+  }
+
+  #recipe-list {
+    width: 50vh;
+  }
+}
